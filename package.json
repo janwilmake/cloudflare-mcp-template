@@ -1,0 +1,17 @@
+{
+  "name": "02-image-generation-template",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "deploy": "workers-mcp docgen src/index.ts && wrangler deploy",
+    "dev": "wrangler dev",
+    "start": "wrangler dev"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.2",
+    "wrangler": "^3.60.3"
+  },
+  "dependencies": {
+    "workers-mcp": "^0.0.10"
+  }
+}

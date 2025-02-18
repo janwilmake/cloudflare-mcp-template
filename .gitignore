@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Dependency directories
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# Wrangler generated files
+.wrangler/
+.dev.vars
